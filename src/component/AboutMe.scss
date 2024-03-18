@@ -1,0 +1,93 @@
+
+
+
+.about-me-card {
+  background-color: #222e38;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  gap: 4rem;
+  .name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.75rem;
+    font-weight: 900;
+    
+    
+  }
+  .description{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+  }
+  .experience{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+   
+   
+  }
+  .skill-name {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+  }
+  .heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.125rem;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    padding: 10px;
+  }
+
+
+  .experience {
+    
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 1.25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; // Add gap between skill items
+  }
+  
+  .skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center; // Center the image vertically
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 10px;
+    // Add a background color for better visibility
+    font-size: 0.9rem;
+
+    img {
+      width: 128px;
+      height: 128px;
+      align-self: center;
+     // Ensure the image maintains its aspect ratio
+    }
+  }
+  .skill-name{
+    text-align: center;
+    display: none;
+  }
+
+  .skill-item:hover {
+    cursor: pointer;
+  }
+
+ 
+}
