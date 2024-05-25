@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.scss"; // Import CSS file for styling
 
 import { FaDownload } from "react-icons/fa6";
-const url = " http://localhost:5173/Subhasish_panda_resume-2.pdf";
+const url = " https://blue-elisabetta-62.tiiny.site/";
 function Header() {
 
 
